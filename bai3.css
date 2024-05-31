@@ -1,0 +1,105 @@
+body, *{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container .menu{
+    display: flex;
+    background-color: cyan;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.menu .item:hover{
+    background-color: red;
+    color: white;
+}
+.menu .item:hover .menu2{
+    display: block;
+
+}
+
+.menu .item{
+    width: 25%;
+    line-height: 40px;
+}
+
+.menu2 {
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+ .item .menu2 .item2:hover{
+    background-color: rgba(255, 255, 0, 0.363);
+}
+
+.products{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.products .product{
+    width: 250px;
+    text-align: center;
+    box-shadow: 5px 5px 15px ;   
+    margin: 0 auto; 
+    position: relative;
+    border-radius: 12px;
+    margin-top: 20px;
+    
+}
+.product_info{
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.goimon{
+    background-color: cyan;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.goimon:hover{
+ background-color: red;
+ color: white;
+}
+
+.gia{
+    color: red;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.sale{
+    display: inline-block;
+    width: fit-content;
+    background-color: red;
+    color: yellow;
+    padding: 3px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+.footer{
+    margin-left: 20px;
+    margin-top: 40px;
+}

@@ -1,0 +1,130 @@
+body,*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(97, 255, 115);
+    height: 300px;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    text-align: center;
+    
+}
+
+.header .gioithieu .ten{
+    font-size: 30px;
+}
+
+.header .gioithieu .hello_world{
+    font-size: 20px;
+}
+
+.header .gioithieu{
+    width: 50%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+.header .lienhe{
+    width: 50%;
+}
+
+.header .lienhe{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    justify-content: center;
+    padding-right: 400px;
+}
+
+.header .lienhe ion-icon{
+    font-size: 50px;
+}
+
+.info{
+    margin-block: 20px;
+    border-radius: 50%;
+    height: 75px;
+    line-height: 75px;
+    background-color: rgb(27, 93, 163);
+    color: orange;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .education{
+    width: 60%;
+    height: 500px;
+}
+
+.container .blog{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+ .heading{ 
+   background-color: orange;
+   padding: 8px;
+   text-align: center;
+   color: white;
+}
+
+.education .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.education .list .item img{
+    width: 100%;
+}
+
+.education .item{
+    border: solid 1px black;
+    width: 30%;
+    background-color: cyan;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container .blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .blog .status{
+    display: flex;
+    border: solid 2px orange;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.status .ava{
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    border-radius: 250%;
+}
+
+.footer{
+    font-size: 25px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(255, 70, 178);
+    background-color: rgba(50, 36, 144, 0.197);
+}
